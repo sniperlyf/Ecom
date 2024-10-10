@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<script type="module">
+    import exportF1 from './components/footer1.js';
+    let f1=document.querySelector("#footer_part1");
+    f1.innerHTML=exportF1();
+    import exportF2 from './components/footer2.js';
+    let f2=document.querySelector("#footer_part2");
+    f2.innerHTML=exportF2();
+</script>
+<body>
+    <footer id="footer_part1">
+        
+    </footer>
+    <footer id="footer_part2">
+        
+    </footer>
+</body>
+</html>
